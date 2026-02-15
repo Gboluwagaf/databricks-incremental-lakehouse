@@ -1,0 +1,12 @@
+{
+  "catalog": "prod_lakehouse",
+  "extract_schema": "bronze",
+  "refined_schema": "silver",
+  "views_schema": "gold",
+  "source_catalog": "samples",
+  "source_schema": "tpch",
+  "pipeline_mode": "continuous",
+  "log_level": "WARN",
+  "max_retry_attempts": 5,
+  "retry_delay_seconds": 300
+}

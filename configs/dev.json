@@ -1,0 +1,12 @@
+{
+  "catalog": "dev_lakehouse",
+  "extract_schema": "bronze",
+  "refined_schema": "silver",
+  "views_schema": "gold",
+  "source_catalog": "samples",
+  "source_schema": "tpch",
+  "pipeline_mode": "triggered",
+  "log_level": "DEBUG",
+  "max_retry_attempts": 3,
+  "retry_delay_seconds": 60
+}
